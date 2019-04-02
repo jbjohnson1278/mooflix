@@ -1,0 +1,39 @@
+body {
+    background-color: darkred;
+}
+
+h1 {
+    color: white;
+    font-family: Lato;
+    text-align: center;
+
+}
+h3{
+  color: white;
+  font-family: Lato;
+  margin-left: 7%;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+img {
+  padding-top: 7%;
+}
+
+a{
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+button {
+  margin-top: 7%;
+  font-size: 30px;
+}
+select {
+  font-size: 28px
+}

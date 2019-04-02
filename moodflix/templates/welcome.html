@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+  </head>
+  <body>
+  <center>
+    <img src="../images/logo.png" alt="Logo" class="center">
+
+    <h1>Select your mood:</h1>
+    <form method="post" action="/result">
+      <select name = "mood">
+        <option value="inspirational">Inspirational</option>
+        <option value="cheerful">Cheerful</option>
+        <option value="romantic">Romantic</option>
+        <option value="melancholy">Melancholy</option>
+        <option value="gloomy">Gloomy</option>
+        <option value="nostalgic">Nostalgic</option>
+        <option value="humorous">Humorous</option>
+        <option value="mellow">Mellow</option>
+        <option value="apathetic">Apathetic</option>
+        <option value="energetic">Energetic</option>
+      </select>
+
+      <h1>Select the occasion:</h1>
+      <select name = "occasion">
+        <option value="date night">Date Night</option>
+        <option value="family night">Family Night</option>
+        <option value="alone time">Alone Time</option>
+        <option value="casual watching">Casual Watching</option>
+        <option value="indecisive">Indecisive</option>
+        <option value="halloween">Halloween</option>
+        <option value="christmas">Christmas</option>
+        <option value="feeling super">Feeling Super</option>
+        <option value="playdate">Playdate</option>
+      </select>
+        <center><button type="submit" value="Find a movie">Find a movie</button></center>
+    </form>
+  </center>
+  <a href="about">About Moodflix</a>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your share button code -->
+  <div class="fb-share-button"
+    data-href="/"
+    data-layout="button_count"
+    data-size="large">
+  </div>
+  <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
+  <script type="text/javascript">
+ (function() {
+ var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+ po.src = 'https://apis.google.com/js/plusone.js';
+ var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+ })();
+</script>
+  </body>
+</html>
